@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487890C924DB43600033C232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890C824DB43600033C232 /* AppDelegate.swift */; };
+		487890CB24DB43600033C232 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890CA24DB43600033C232 /* SceneDelegate.swift */; };
+		487890CD24DB43600033C232 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890CC24DB43600033C232 /* MainViewController.swift */; };
+		487890D024DB43600033C232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487890CE24DB43600033C232 /* Main.storyboard */; };
+		487890D224DB43630033C232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487890D124DB43630033C232 /* Assets.xcassets */; };
+		487890D524DB43630033C232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487890D324DB43630033C232 /* LaunchScreen.storyboard */; };
+		487890E024DC5BF90033C232 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890DF24DC5BF90033C232 /* ResultViewController.swift */; };
+		487890E224DCB63B0033C232 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890E124DCB63A0033C232 /* Message.swift */; };
+		487890E424DCB8140033C232 /* SweeterBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487890E324DCB8140033C232 /* SweeterBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487890C524DB43600033C232 /* Sweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487890C824DB43600033C232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		487890CA24DB43600033C232 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		487890CC24DB43600033C232 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		487890CF24DB43600033C232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		487890D124DB43630033C232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		487890D424DB43630033C232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487890D624DB43630033C232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487890DF24DC5BF90033C232 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		487890E124DCB63A0033C232 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		487890E324DCB8140033C232 /* SweeterBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweeterBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487890C224DB43600033C232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487890BC24DB43600033C232 = {
+			isa = PBXGroup;
+			children = (
+				487890C724DB43600033C232 /* Sweeter */,
+				487890C624DB43600033C232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487890C624DB43600033C232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487890C524DB43600033C232 /* Sweeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487890C724DB43600033C232 /* Sweeter */ = {
+			isa = PBXGroup;
+			children = (
+				487890DE24DB43B20033C232 /* Model */,
+				487890DC24DB437C0033C232 /* View */,
+				487890DD24DB43A20033C232 /* Controller */,
+				487890C824DB43600033C232 /* AppDelegate.swift */,
+				487890CA24DB43600033C232 /* SceneDelegate.swift */,
+				487890D124DB43630033C232 /* Assets.xcassets */,
+				487890D324DB43630033C232 /* LaunchScreen.storyboard */,
+				487890D624DB43630033C232 /* Info.plist */,
+			);
+			path = Sweeter;
+			sourceTree = "<group>";
+		};
+		487890DC24DB437C0033C232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				487890CE24DB43600033C232 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		487890DD24DB43A20033C232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				487890CC24DB43600033C232 /* MainViewController.swift */,
+				487890DF24DC5BF90033C232 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		487890DE24DB43B20033C232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				487890E124DCB63A0033C232 /* Message.swift */,
+				487890E324DCB8140033C232 /* SweeterBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487890C424DB43600033C232 /* Sweeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487890D924DB43630033C232 /* Build configuration list for PBXNativeTarget "Sweeter" */;
+			buildPhases = (
+				487890C124DB43600033C232 /* Sources */,
+				487890C224DB43600033C232 /* Frameworks */,
+				487890C324DB43600033C232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweeter;
+			productName = Sweeter;
+			productReference = 487890C524DB43600033C232 /* Sweeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487890BD24DB43600033C232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Robert Pelka";
+				TargetAttributes = {
+					487890C424DB43600033C232 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 487890C024DB43600033C232 /* Build configuration list for PBXProject "Sweeter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 487890BC24DB43600033C232;
+			productRefGroup = 487890C624DB43600033C232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487890C424DB43600033C232 /* Sweeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487890C324DB43600033C232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487890D524DB43630033C232 /* LaunchScreen.storyboard in Resources */,
+				487890D224DB43630033C232 /* Assets.xcassets in Resources */,
+				487890D024DB43600033C232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487890C124DB43600033C232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487890CD24DB43600033C232 /* MainViewController.swift in Sources */,
+				487890C924DB43600033C232 /* AppDelegate.swift in Sources */,
+				487890E224DCB63B0033C232 /* Message.swift in Sources */,
+				487890CB24DB43600033C232 /* SceneDelegate.swift in Sources */,
+				487890E424DCB8140033C232 /* SweeterBrain.swift in Sources */,
+				487890E024DC5BF90033C232 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		487890CE24DB43600033C232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487890CF24DB43600033C232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		487890D324DB43630033C232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487890D424DB43630033C232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487890D724DB43630033C232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		487890D824DB43630033C232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487890DA24DB43630033C232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = Sweeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.Sweeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		487890DB24DB43630033C232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = Sweeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.Sweeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487890C024DB43600033C232 /* Build configuration list for PBXProject "Sweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487890D724DB43630033C232 /* Debug */,
+				487890D824DB43630033C232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487890D924DB43630033C232 /* Build configuration list for PBXNativeTarget "Sweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487890DA24DB43630033C232 /* Debug */,
+				487890DB24DB43630033C232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487890BD24DB43600033C232 /* Project object */;
+}
